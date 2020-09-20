@@ -1,0 +1,149 @@
+/* Our Main Style Sheet for Project One */
+body {
+  font-family: 'Changa', sans-serif;
+  color:#FFFFFF;
+  background-color:#525252;
+  margin:0 auto;
+  padding:0;
+  width:690px;
+}
+h1 {
+  font-weight: 400;
+  font-size: 365px;
+  margin: 0;
+  margin-top: -200px;
+  margin-bottom: -200px;
+}
+h2 {
+  font-weight: 700;
+  font-size: 50px;
+  color: #CBA968;
+  text-align: center;
+}
+h3 {
+  font-weight: 400;
+  font-size: 40px;
+  text-align: center;
+}
+h4 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  margin: 0;
+  margin-left: 20px;
+}
+h5 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  width: 300px;
+  text-align: center;
+  margin: 0px;
+}
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  text-align: center;
+  line-height: 24px;
+}
+
+.middle {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.top {
+  border: 10px solid #CBA968;
+  margin-top: 50px;
+  display: flex;
+}
+
+.top_text {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.bottom {
+  border: 10px solid #CBA968;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.bottom_text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.top_text h3 {
+  height: 50px;
+}
+
+.top_text p {
+  margin-left: 50px;
+  margin-top: -20px;
+  width: 239px;
+}
+
+#letter-analysis {
+  position: absolute;
+  top: 2.5px;
+  right: 2.5px;
+  width: 96.5%;
+}
+
+.character_letter-analysis {
+  position: relative;
+}
+
+.coffee {
+  width: 345px;
+  height: 345px;
+}
+
+.my_photo {
+  width: 345px;
+  height: 345px;
+}
+
+.name {
+  margin: 0px;
+  text-align: left;
+  width: 280px;
+}
+
+.sources {
+  margin: 0px;
+  margin-top: 10px;
+  text-align: left;
+  width: 140px;
+}
+
+.source_one,
+.source_two {
+  margin: 0px;
+  margin-left: 20px;
+  text-align: left;
+  width: 280px;
+}
+
+.source_one {
+  margin-bottom: 20px;
+}
+
+.info {
+  width: 345px;
+}
+
+.info img {
+  width: 100%;
+  margin-bottom: -10px;
+}
+
+.changa {
+  margin-left: 50px; 
+}
