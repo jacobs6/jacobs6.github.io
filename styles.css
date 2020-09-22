@@ -1,0 +1,39 @@
+Body {
+  font-family: 'Oswald', sans-serif;
+  color: #FFF;
+  background-color: #6D8396;
+}
+
+h1 {
+  font-weight: 400;
+}
+
+h2 {
+  font-weight: 400;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  height: 343px;
+  background-image: url(project-one/assets/drawing.jpg);
+  background-repeat: no-repeat;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+a {
+  padding: 40px;
+  border: 5px solid #FFF;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #FFF;
+  width: 400px;
+  text-align: center;
+}
