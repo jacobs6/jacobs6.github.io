@@ -38,3 +38,9 @@ a {
   width: 400px;
   text-align: center;
 }
+
+a:hover {
+  background-color: #FFF;
+  color: #6D8396;
+  cursor: pointer; 
+}

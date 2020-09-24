@@ -48,6 +48,26 @@ p {
   line-height: 24px;
 }
 
+button {
+  width: 100px;
+  height: 100px;
+  background-color: #525252;
+  border-radius: 50%;
+  border: 10px solid #CBA968;
+}
+
+button:hover {
+  background-color: #CBA968;
+  cursor: pointer;
+}
+
+.button {
+  text-align: center;
+  position: relative;
+  top: -50px;
+  left: 10px; 
+}
+
 .middle {
   display: flex;
   justify-content: space-around;
@@ -94,6 +114,11 @@ p {
   top: 2.5px;
   right: 2.5px;
   width: 96.5%;
+  opacity: 0;
+}
+
+#letter-analysis.visible {
+  opacity: 1;
 }
 
 .character_letter-analysis {
@@ -145,5 +170,5 @@ p {
 }
 
 .changa {
-  margin-left: 50px; 
+  margin-left: 50px;
 }
