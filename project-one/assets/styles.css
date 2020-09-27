@@ -22,12 +22,12 @@ h2 {
 }
 h3 {
   font-weight: 400;
-  font-size: 40px;
+  font-size: 36px;
   text-align: center;
 }
 h4 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 18px;
   margin: 0;
   margin-left: 20px;
@@ -49,8 +49,8 @@ p {
 }
 
 button {
-  width: 100px;
-  height: 100px;
+  width: 124px;
+  height: 124px;
   background-color: #525252;
   border-radius: 50%;
   border: 10px solid #CBA968;
@@ -64,14 +64,15 @@ button:hover {
 .button {
   text-align: center;
   position: relative;
-  top: -50px;
-  left: 10px; 
+  top: -65px;
+  left: 10px;
 }
 
 .middle {
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
+  margin-top: -200px;
 }
 
 .top {
@@ -112,8 +113,8 @@ button:hover {
 #letter-analysis {
   position: absolute;
   top: 2.5px;
-  right: 2.5px;
-  width: 96.5%;
+  right: 3.5px;
+  width: 95.5%;
   opacity: 0;
 }
 
@@ -171,4 +172,23 @@ button:hover {
 
 .changa {
   margin-left: 50px;
+}
+
+#first-decoration {
+  position: relative;
+  left: 293px;
+  top: -551px;
+}
+
+#second-decoration {
+  position: relative;
+  left: 165px;
+  top: 461px;
+}
+
+#third-decoration {
+  position: relative;
+  left: 37px;
+  top: 811px;
+  transform: rotate(180deg);
 }
