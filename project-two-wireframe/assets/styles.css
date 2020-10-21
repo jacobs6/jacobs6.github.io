@@ -16,19 +16,19 @@ body {
   align-items: center;
 }
 
-a {
+.menu-item {
   color: #FFF;
   background-color: #000;
   text-decoration: none;
   font-size: 35px;
-  width: 440px;
+  width: 480px;
   height: 64px;
   text-align: center;
   line-height: 64px;
   border: 20px solid #000;
 }
 
-a:hover {
+.menu-item:hover {
   border: 20px solid #241F98;
   cursor: pointer;
 }
@@ -95,6 +95,11 @@ h1 {
   margin-left: 50px;
 }
 
+.box-3,
+.box-5 {
+  background-color: #00FFD8;
+}
+
 #head-1 {
   margin-top: 30px;
 }
@@ -136,10 +141,22 @@ h1 {
 }
 
 .box-7 {
-  height: 380px;
+  height: 850px;
 }
 
-#first-button {
+.top-photo {
+  width: 1920px;
+  height: 580px;
+  background-color: #00FFD8;
+}
+
+.bottom-photo {
+  width: 1200px;
+  height: 480px;
+  background-color: #00FFD8;
+}
+
+.doctorbutton {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -155,13 +172,25 @@ h1 {
   border: 50px solid #04005F;
 }
 
-#first-button:hover {
+.doctorbutton:hover {
   background-color: #04005F;
   color: #FF8900;
   cursor: pointer;
 }
 
-#first-episodes {
+#first-episodes,
+#second-episodes,
+#third-episodes,
+#fourth-episodes,
+#fifth-episodes,
+#sixth-episodes,
+#seventh-episodes,
+#eighth-episodes,
+#ninth-episodes,
+#tenth-episodes,
+#eleventh-episodes,
+#twelfth-episodes,
+#thirteenth-episodes {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -169,7 +198,19 @@ h1 {
   opacity: 0;
 }
 
-#first-episodes.visible {
+#first-episodes.visible,
+#second-episodes.visible,
+#third-episodes.visible,
+#fourth-episodes.visible,
+#fifth-episodes.visible,
+#sixth-episodes.visible,
+#seventh-episodes.visible,
+#eighth-episodes.visible,
+#ninth-episodes.visible,
+#tenth-episodes.visible,
+#eleventh-episodes.visible,
+#twelfth-episodes.visible,
+#thirteenth-episodes.visible {
   opacity: 1;
 }
 
@@ -197,7 +238,7 @@ h1 {
 }
 
 .right1 {
-  background-color: #FFF;
+  background-color: #00FFD8;
   color: #000;
   text-align: center;
   width: 400px;
@@ -212,7 +253,7 @@ h1 {
 }
 
 .left2 {
-  background-color: #FFF;
+  background-color: #00FFD8;
   color: #000;
   text-align: center;
   width: 400px;
