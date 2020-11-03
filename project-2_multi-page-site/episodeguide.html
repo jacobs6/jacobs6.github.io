@@ -13,20 +13,22 @@
       <a href="index.html"><img class="logo" src="assets/logo.png"></a>
     </div>
     <div class="menu">
-      <a class="menu-item" href="about.html">ABOUT</a>
-      <a class="menu-item" href="wheretostart.html">WHERE TO START</a>
-      <a class="menu-item" href="thedoctor.html">THE DOCTOR</a>
-      <a class="menu-item" href="episodeguide.html">EPISODE GUIDE</a>
+      <nav>
+        <a class="menu-item" href="about.html">ABOUT</a>
+        <a class="menu-item" href="wheretostart.html">WHERE TO START</a>
+        <a class="menu-item" href="thedoctor.html">THE DOCTOR</a>
+        <a class="menu-item" href="episodeguide.html">EPISODE GUIDE</a>
+      </nav>
     </div>
     <div class="content">
-      <div class="top-photo">
-        <img src="assets/episode-guide-image.jpg">
+      <div>
+        <img class="top-photo" src="assets/episode-guide-image.jpg">
       </div>
       <div class="box-1">
         <h2>Episode Guide</h2>
-        <p></p>
+        <p class="paragraph">This is a list of every episode of Doctor Who, sorted by doctor, from 1963 to the present day.  It should be noted that the original run of the show was organized by serials, with a full story being split up into 25 minute chunks and aired over the course of 4-6 weeks.  Starting in 2005 however, the format of the modern series shifted into a standard 45 minute single-episode format, with multi-parters usually designated with different production codes.  For this reason, for Doctors 1-7, the episodes are listed by the title of the overall serial rather than the individual parts, while the modern series maintains the individual episodes.</p>
       </div>
-      <div id=first-doctor>
+      <div class="episode-guide">
         <button class="doctorbutton" id="first-button">1st Doctor 1963-1966</button>
         <div id="first-episodes">
           <p class="episode">An Unearthly Child</p>
@@ -57,10 +59,10 @@
           <p class="episode">The Savages</p>
           <p class="episode">The War Machines</p>
           <p class="episode">The Smugglers</p>
-          <p class="episode">The Tenth Planet</p>
+          <p class="episode last">The Tenth Planet</p>
         </div>
       </div>
-      <div id=second-doctor>
+      <div class="episode-guide">
         <button class="doctorbutton" id="second-button">2nd Doctor 1966-1969</button>
         <div id="second-episodes">
           <p class="episode">The Power of the Daleks</p>
@@ -83,10 +85,10 @@
           <p class="episode">The Krotons</p>
           <p class="episode">The Seeds of Death</p>
           <p class="episode">The Space Pirates</p>
-          <p class="episode">The War Games</p>
+          <p class="episode last">The War Games</p>
         </div>
       </div>
-      <div id=third-doctor>
+      <div class="episode-guide">
         <button class="doctorbutton" id="third-button">3rd Doctor 1970-1974</button>
         <div id="third-episodes">
           <p class="episode">Spearhead From Space</p>
@@ -112,10 +114,10 @@
           <p class="episode">Invasion of the Dinosaurs</p>
           <p class="episode">Death to the Daleks</p>
           <p class="episode">The Monster of Peladon</p>
-          <p class="episode">Planet of the Spiders</p>
+          <p class="episode last">Planet of the Spiders</p>
         </div>
       </div>
-      <div id=fourth-doctor>
+      <div class="episode-guide">
         <button class="doctorbutton" id="fourth-button">4th Doctor 1975-1981</button>
         <div id="fourth-episodes">
           <p class="episode">Robot</p>
@@ -159,10 +161,10 @@
           <p class="episode">State of Decay</p>
           <p class="episode">Warriors' Gate</p>
           <p class="episode">The Keeper of Traken</p>
-          <p class="episode">Logopolis</p>
+          <p class="episode last">Logopolis</p>
         </div>
       </div>
-      <div id=fifth-doctor>
+      <div class="episode-guide">
         <button class="doctorbutton" id="fifth-button">5th Doctor 1982-1984</button>
         <div id="fifth-episodes">
           <p class="episode">Castrovalva</p>
@@ -184,10 +186,10 @@
           <p class="episode">Frontios</p>
           <p class="episode">Resurrection of the Daleks</p>
           <p class="episode">Planet of Fire</p>
-          <p class="episode">The Caves of Androzani</p>
+          <p class="episode last">The Caves of Androzani</p>
         </div>
       </div>
-      <div id=sixth-doctor>
+      <div class="episode-guide">
         <button class="doctorbutton" id="sixth-button">6th Doctor 1984-1986</button>
         <div id="sixth-episodes">
           <p class="episode">The Twin Dilemma</p>
@@ -197,10 +199,10 @@
           <p class="episode">The Two Doctors</p>
           <p class="episode">Timelash</p>
           <p class="episode">Revelation of the Daleks</p>
-          <p class="episode">The Trial of a Time Lord</p>
+          <p class="episode last">The Trial of a Time Lord</p>
         </div>
       </div>
-      <div id=seventh-doctor>
+      <div class="episode-guide">
         <button class="doctorbutton" id="seventh-button">7th Doctor 1987-1989</button>
         <div id="seventh-episodes">
           <p class="episode">Time and the Rani</p>
@@ -214,16 +216,16 @@
           <p class="episode">Battlefield</p>
           <p class="episode">Ghost Light</p>
           <p class="episode">The Curse of Fenric</p>
-          <p class="episode">Survival</p>
+          <p class="episode last">Survival</p>
         </div>
       </div>
-      <div id=eighth-doctor>
+      <div class="episode-guide">
         <button class="doctorbutton" id="eighth-button">8th Doctor 1996</button>
         <div id="eighth-episodes">
-          <p class="episode">Doctor Who (TV Movie)</p>
+          <p class="episode last">Doctor Who (TV Movie)</p>
         </div>
       </div>
-      <div id=ninth-doctor>
+      <div class="episode-guide">
         <button class="doctorbutton" id="ninth-button">9th Doctor 2005</button>
         <div id="ninth-episodes">
           <p class="episode">Rose</p>
@@ -238,10 +240,10 @@
           <p class="episode">The Doctor Dances</p>
           <p class="episode">Boom Town</p>
           <p class="episode">Bad Wolf</p>
-          <p class="episode">The Parting of the Ways</p>
+          <p class="episode last">The Parting of the Ways</p>
         </div>
       </div>
-      <div id=tenth-doctor>
+      <div class="episode-guide">
         <button class="doctorbutton" id="tenth-button">10th Doctor 2005-2010</button>
         <div id="tenth-episodes">
           <p class="episode">The Christmas Invasion</p>
@@ -290,10 +292,10 @@
           <p class="episode">Planet of the Dead</p>
           <p class="episode">The Waters of Mars</p>
           <p class="episode">The End of Time, Part 1</p>
-          <p class="episode">The End of Time, Part 2</p>
+          <p class="episode last">The End of Time, Part 2</p>
         </div>
       </div>
-      <div id=eleventh-doctor>
+      <div class="episode-guide">
         <button class="doctorbutton" id="eleventh-button">11th Doctor 2010-2013</button>
         <div id="eleventh-episodes">
           <p class="episode">The Eleventh Hour</p>
@@ -339,10 +341,10 @@
           <p class="episode">Nightmare in Silver</p>
           <p class="episode">The Name of the Doctor</p>
           <p class="episode">The Day of the Doctor</p>
-          <p class="episode">The Time of the Doctor</p>
+          <p class="episode last">The Time of the Doctor</p>
         </div>
       </div>
-      <div id=twelfth-doctor>
+      <div class="episode-guide">
         <button class="doctorbutton" id="twelfth-button">12th Doctor 2014-2017</button>
         <div id="twelfth-episodes">
           <p class="episode">Deep Breath</p>
@@ -384,10 +386,10 @@
           <p class="episode">The Eaters of Light</p>
           <p class="episode">World Enough and Time</p>
           <p class="episode">The Doctor Falls</p>
-          <p class="episode">Twice Upon a Time</p>
+          <p class="episode last">Twice Upon a Time</p>
         </div>
       </div>
-      <div id=thirteenth-doctor>
+      <div class="episode-guide">
         <button class="doctorbutton" id="thirteenth-button">13th Doctor 2018-Present</button>
         <div id="thirteenth-episodes">
           <p class="episode">The Woman Who Fell to Earth</p>
@@ -410,7 +412,7 @@
           <p class="episode">Can You Hear Me?</p>
           <p class="episode">The Haunting of Villa Diodati</p>
           <p class="episode">Ascension of the Cybermen</p>
-          <p class="episode">The Timeless Children</p>
+          <p class="episode last">The Timeless Children</p>
         </div>
       </div>
     </div>
