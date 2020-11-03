@@ -63,59 +63,79 @@ nav a:hover {
 .box-8 {
   background-color: #FFF;
   color: #000;
-  width: 1600px;
+  width: 80vw;
   margin: 0 auto;
   margin-top: 80px;
   text-align: center;
   border: 80px solid #04005F;
 }
 
+.box-1 {
+  height: 25vw;
+}
+
+.box-4 {
+  height: 18vw;
+}
+
 h2 {
-  font-size: 80px;
+  font-size: 4vw;
   margin: 0;
 }
 
+.welcome {
+  font-size: 6vw;
+}
+
 p {
-  font-size: 50px;
+  font-size: 2vw;
   margin: 0;
 }
 
 h1 {
-  font-size: 120px;
+  font-size: 10vw;
   margin: 0;
 }
 
 .row-2 {
   display: flex;
   justify-content: center;
+  margin: 0 auto;
+  width: 90vw;
 }
 
 .row-4 {
   display: flex;
   justify-content: center;
+  margin: 0 auto;
+  width: 90vw;
 }
 
 .box-2,
 .box-3,
 .box-5,
 .box-6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background-color: #FFF;
   color: #000;
   text-align: center;
-  width: 640px;
-  height: 640px;
+  width: 45%;
+  height: 30vw;
   border: 80px solid #04005F;
   margin-top: 80px;
 }
 
 .box-2,
 .box-5{
-  margin-right: 80px;
+  margin-right: 5vw;
 }
 
 .box-3,
 .box-6{
-  margin-left: 80px;
+  margin-left: 5vw;
 }
 
 .box-3,
@@ -129,7 +149,7 @@ h1 {
   font-family: gill-sans-nova, sans-serif;
   font-weight: 500;
   font-style: normal;
-  font-size: 45px;
+  font-size: 2vw;
   text-decoration: none;
   border: none;
   padding: 10px 50px 10px 50px;
@@ -142,12 +162,8 @@ h1 {
   border: none;
 }
 
-.box-4 {
-  height: 370px;
-}
-
 .box-7,.box-8 {
-  width: 1600px;
+  width: 80vw;
 }
 
 .box-7 {
@@ -162,19 +178,20 @@ h1 {
 }
 
 .bottom-photo {
-  width: 1600px;
+  width: 100%;
   background-color: #00FFD8;
 }
 
 .index-head-1,
 .index-head-2 {
-  margin-top: 20px;
+  font-size: 4vw;
 }
 
 .index-body-1 {
+  font-size: 2vw;
   margin: 0 auto;
-  width: 600px;
-  margin-bottom: 50px;
+  width: 80%;
+  margin-bottom: 20px;
 }
 
 .index-body-2 {
@@ -186,7 +203,7 @@ h1 {
   margin-top: 80px;
   margin-bottom: 80px;
   border: 80px solid #04005F;
-  width: 1600px;
+  width: 80vw;
 }
 
 .doctorbutton {
@@ -261,13 +278,15 @@ h1 {
 .type-1 {
   display: flex;
   justify-content: center;
+  width: 90vw;
+  margin: 0 auto;
 }
 
 .left1 {
   background-color: #FFF;
   color: #000;
+  width: 60%;
   text-align: center;
-  width: 880px;
   border: 80px solid #04005F;
   border-right: 0px;
   margin-top: 50px;
@@ -277,8 +296,6 @@ h1 {
   background-color: #04005F;
   color: #000;
   text-align: center;
-  width: 640px;
-  height: 850px;
   border: 80px solid #04005F;
   margin-top: 50px;
 }
@@ -286,14 +303,14 @@ h1 {
 .type-2 {
   display: flex;
   justify-content: center;
+  width: 90vw;
+  margin: 0 auto;
 }
 
 .left2 {
   background-color: #04005F;
   color: #000;
   text-align: center;
-  width: 640px;
-  height: 850px;
   border: 80px solid #04005F;
   margin-top: 50px;
 }
@@ -301,22 +318,21 @@ h1 {
 .right2 {
   background-color: #FFF;
   color: #000;
+  width: 60%;
   text-align: center;
-  width: 880px;
-  height: 850px;
   border: 80px solid #04005F;
   border-left: 0px;
   margin-top: 50px;
 }
 
 .doctor-header {
-  font-size: 70px;
+  font-size: 4vw;
 }
 
 .doctor-info {
-  font-size: 30px;
+  font-size: 1.5vw;
+  width: 90%;
   margin: 0 auto;
-  width: 810px;
   margin-top: 40px;
 }
 
@@ -336,11 +352,26 @@ h1 {
   width: 100%;
 }
 
+.box-1-about {
+  background-color: #FFF;
+  color: #000;
+  width: 80vw;
+  margin: 0 auto;
+  margin-top: 80px;
+  text-align: center;
+  border: 80px solid #04005F;
+}
+
 .paragraph {
-  font-size: 30px;
-  width: 1500px;
+  width: 94%;
   margin: 0 auto;
   margin-bottom:
+}
+
+.paragraph-last {
+  width: 94%;
+  margin: 0 auto;
+  margin-bottom: 100px;
 }
 
 .flex {
@@ -348,20 +379,27 @@ h1 {
   justify-content: space-around;
   margin: 0 auto;
   margin-top: 100px;
-  margin-bottom: 100px;
 }
 
 .split {
-  width: 720px;
+  width: 80%;
 }
 
 .about-1 {
-  width: 640px;
+  width: 50%;
+  height: 100%;
   border: 50px solid #04005F;
   background-color: #04005F;
+  margin-right: 5%;
 }
 
 iframe {
-  margin-top: 70px; 
+  width: 60vw;
+  height: 35vw;
+  margin-top: 70px;
   margin-bottom: 50px;
+}
+
+img {
+  width: 100%;
 }
