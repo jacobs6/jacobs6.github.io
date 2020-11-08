@@ -37,10 +37,11 @@ a {
   color: #FFF;
   width: 400px;
   text-align: center;
+  text-decoration: none; 
 }
 
 a:hover {
   background-color: #FFF;
   color: #6D8396;
-  cursor: pointer; 
+  cursor: pointer;
 }
