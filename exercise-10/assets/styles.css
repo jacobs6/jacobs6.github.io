@@ -1,0 +1,161 @@
+/* External Stylesheet for Exercise 10: Responsive Resume Design */
+
+/* REMINDER — CODE MOBILE FIRST! The code needed to display your design on a tablet or desktop should be handled using MEDIA QUERIES */
+
+* {
+  margin:0 auto;
+  padding:0px;
+  overflow-x: hidden;
+}
+
+.content {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+img {
+  width: 50vw;
+  display: block;
+  margin: 0 auto;
+  margin: 1em auto 1em auto;
+}
+
+h1,
+h2 {
+  font-family: 'Fredericka the Great', cursive;
+  color: #FFF;
+}
+
+h3,
+p {
+  font-family: 'PT Sans', sans-serif;
+}
+
+p {
+  font-size: 15px;
+}
+
+a {
+  color: #000;
+}
+
+h1 {
+  background-color: #051A72;
+  font-size: 2.5em;
+  text-align: center;
+  padding: .8em 0 .8em 0;
+}
+
+h2 {
+  background-color: #429696;
+  font-size: 1.7em;
+  padding: .2em 0 .2em .2em;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
+.group {
+  margin-bottom: 2em;
+}
+
+.job {
+  margin-bottom: .8em;
+}
+
+
+
+
+
+
+
+
+/* ********** MEDIA QUERIES ********************* */
+
+/* Tablet Design */
+@media screen and (min-width:768px) and (max-width:1024px) {
+
+body {
+  background-color: #429696;
+}
+
+section {
+  position: absolute;
+  right: 0;
+  background: #FFF;
+}
+
+.content {
+  width: 80vw;
+  padding: 0 2vw 0 2vw;
+}
+
+img {
+  width: 30vw;
+  margin-right: 1em;
+}
+
+.column-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2em;
+}
+
+}
+
+
+/* Desktop Design */
+@media screen and (min-width:1025px) {
+
+img {
+  width: 20vw;
+}
+
+p {
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+.content {
+  width: 100vw;
+  display: flex;
+}
+
+.column-1 {
+  width: 20vw;
+  background-color: #429696;
+  margin: 0;
+  padding: 0 2em 0 2em;
+}
+
+.column-1 h3 {
+  color: #FFF;
+  font-size: 1.2em;
+}
+
+.column-2 {
+  width: 40vw;
+  margin-top: 3em;
+}
+
+.column-3 {
+  width: 20vw;
+  margin-top: 3em;
+}
+
+a {
+  color: #FFF;
+}
+
+.column-3 a {
+  color: #000; 
+}
