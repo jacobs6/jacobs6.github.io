@@ -15,5 +15,13 @@ img {
   display: block;
   margin: 0 auto;
   border: 10px solid #FFF;
-  margin-bottom: 40px; 
+  margin-bottom: 40px;
+}
+
+.wide {
+  width: 80vw;
+}
+
+.tall {
+  width: 50vw; 
 }
